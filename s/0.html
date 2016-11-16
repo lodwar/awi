@@ -1,0 +1,91 @@
+
+<!-- saved from url=(0024)http://localhost/page/0# -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><link rel="stylesheet" href="./0_files/1.css"><script src="./0_files/Whirlpool.min.js"></script>
+<script type="text/javascript">
+<!--
+function pack(form){
+if (form.sig.value != '')
+{   var aa = Wh(Wh(form.sig.value).toLowerCase()).toLowerCase();
+ form.sig.value = '';
+form.hsh.value = Wh(Wh(Wh(form.ch.value).toLowerCase() + aa).toLowerCase()).toLowerCase();
+aa = ''; }
+}
+function toggle(id) {
+var e = document.getElementById(id);
+if(e.style.display == 'none')
+e.style.display = 'block';
+else
+e.style.display = 'none';
+}
+//-->
+</script>
+</head><body><br><div class="r"><p></p><p>Locked, stickied, dead threads. Locked threads cannot be posted in, stickied threads always stay at the top of the board, dead threads cannot be bumped.<br>
+3. <del>Installation</del></p>
+
+<p>Installation couldn’t be easier. Just download (at least) index.py3 and the .html and .css files in the top-level directory, then make sure your BBS directory and its contents have read/write privileges by the web daemon. Then, open index.py3 with your favorite text editor, and from there, confirm your settings.</p>
+
+<p>Moderation is currently done by managing text files in a directory; the default directory is “./threads/”. You need to have at least one valid thread on the board to enable posting; if you need to initialize the board, create a folder called “./threads/” that’s readable/writable by the web daemon, and in there, a file called “list.txt” and another called “0.txt”.</p>
+
+<p>list.txt contents:<br>
+0 &gt;&lt; 0 &gt;&lt; 0 &gt;&lt; 0 &gt;&lt; 0</p>
+
+<p>0.txt contents:<br>
+0<br>
+0 &gt;&lt; 0 &gt;&lt; 0 &gt;&lt; 0</p>
+
+<blockquote>
+<blockquote>
+<p>Then, try posting another thread from the page to confirm that your board works. To get rid of that first thread, remove its entry from list.txt and remove 0.txt from the thread directory. To edit threads/posts, find a thread’s filename in your web browser or list.txt, then just modify it in a text editor.</p>
+</blockquote>
+</blockquote>
+
+<p>If you want to lock a thread, change the last number in its row, in list.txt, to “1”. To sticky, “2”. To stickylock, “3”. To kill, “4”. Then, open the thread (its_unix_time.txt in ./threads/) and added “[&lt;” followed by that same value to the title line. Clunky, but it works for now :)<br>
+4. To-do</p>
+
+<p>Here’s what I’d like to add to bring iyagi to v1.0:</p>
+
+<pre><code>A proper thread index for the main page
+More stylesheets
+Some kind of markup format - probably markdown derived
+Admin panel, anti-spam filters
+RSS list of threads
+</code></pre>
+
+<p><strong>Possible</strong> <strong><em>bonus features:</em></strong></p>
+
+<pre><code>User storable capcodes bbb
+</code></pre>
+
+<p>dkjfkljsja;dja;kljjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj 555</p>
+<p></p></div><br><div class"b"=""><a href="http://localhost/page/0#" onclick="toggle(&#39;rbox&#39;);">Edit Page</a></div><div id="rbox" style="display: none;"><form action="http://localhost/fsubmit" method="POST" onsubmit="return pack(this);"><textarea name="fxt" id="rb" cols="80" rows="8">Locked, stickied, dead threads. Locked threads cannot be posted in, stickied threads always stay at the top of the board, dead threads cannot be bumped.
+3. ~~Installation~~
+
+Installation couldn't be easier. Just download (at least) index.py3 and the .html and .css files in the top-level directory, then make sure your BBS directory and its contents have read/write privileges by the web daemon. Then, open index.py3 with your favorite text editor, and from there, confirm your settings.
+
+Moderation is currently done by managing text files in a directory; the default directory is "./threads/". You need to have at least one valid thread on the board to enable posting; if you need to initialize the board, create a folder called "./threads/" that's readable/writable by the web daemon, and in there, a file called "list.txt" and another called "0.txt".
+
+list.txt contents:
+0 &gt;&lt; 0 &gt;&lt; 0 &gt;&lt; 0 &gt;&lt; 0
+
+0.txt contents:
+0
+0 &gt;&lt; 0 &gt;&lt; 0 &gt;&lt; 0
+
+&gt;&gt;Then, try posting another thread from the page to confirm that your board works. To get rid of that first thread, remove its entry from list.txt and remove 0.txt from the thread directory. To edit threads/posts, find a thread's filename in your web browser or list.txt, then just modify it in a text editor.
+
+If you want to lock a thread, change the last number in its row, in list.txt, to "1". To sticky, "2". To stickylock, "3". To kill, "4". Then, open the thread (its_unix_time.txt in ./threads/) and added "[&lt;" followed by that same value to the title line. Clunky, but it works for now :)
+4. To-do
+
+Here's what I'd like to add to bring iyagi to v1.0:
+
+    A proper thread index for the main page
+    More stylesheets
+    Some kind of markup format - probably markdown derived
+    Admin panel, anti-spam filters
+    RSS list of threads
+
+**Possible** ***bonus features:***
+
+    User storable capcodes bbb
+
+dkjfkljsja;dja;kljjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj 555</textarea><br><br><input type="submit" value="&gt;&gt;&gt;&gt;&gt;&gt;&gt;"><br><input type="hidden" name="ch" value="17145b69a2c0c2372c15852bd79ca916112e63014461"><input type="hidden" name="hsh" value=""><input type="hidden" name="user" value="qwe"><input type="hidden" name="flt" value="0"></form><div class="b"><a href="http://localhost/page/0">Home</a>&nbsp;&nbsp;[ <a href="http://localhost/+"> ~ qwe ~</a>&nbsp;&nbsp;] <a href="http://localhost/index">Index</a><p></p></div></div></body></html>

@@ -1,0 +1,16 @@
+#!/usr/bin/env python2
+
+from hashlib import sha512, sha256
+import sys
+#from keccak import *
+import whirlpool as wp
+
+passw = "xxx"
+
+#print sha512(sys.argv[1]).hexdigest()
+#print sha256(sys.argv[1]).hexdigest()
+print wp.Whirlpool(wp.Whirlpool(passw).hexdigest()).hexdigest()
+
+#kkk = KeccakHash.preset(1088, 512, 256)
+#print "Keccak",  kkk('').hexdigest()
+exit(0)

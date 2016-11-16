@@ -1,0 +1,36 @@
+body { background: #C9C7B9; /*#767979; */
+ color: black; }
+a { color: darkblue; }
+#i { border: 2px dotted #6B4133; border-radius: 8px;
+padding: 3%; text-align: center; width: 88%; }
+textarea, input { background: #bbb; color: #6B4141;
+font-size: 1.2em; font-family: Helvetica, sans-serif; border-radius: 8px;
+width: 78%; border: 2px solid #6B4133; margin-left: 20%; }
+#u { color: darkgreen; font-size: 1em; float: right; border: 2px dashed darkblue;
+border-radius: 8px; padding: 3%; }
+#e { color: darkred; font-size: 1em; float: right; }
+.r { border-radius: 8px; padding: 2%; border: 2px dashed #6B4133;
+color: #6B4133; font-size: 1.1em;/* position: absolute;*/ top: 0;
+font-family: Helvetica, sans-serif; margin-right: 4px; margin-left: 0; width: 99%; margin-bottom: 6%; }
+#b { position: static; border-radius: 4px; padding: 2%; border: 2px dashed darkcyan;
+color: darkcyan; font-size: 0.9em;
+font-family: Helvetica, sans-serif; margin-left: 4px; margin-right: 2%; margin-top: 1%; }
+code { border-radius: 4px; padding: 2%; border: 2px solid #6B4133;
+color: black; background: #BCB6A8; font-size: 1em;
+font-family: Helvetica, sans-serif; display: block; }
+span { border-radius: 8px; padding: 2%; border: 2px solid #6B4133;
+font-family: Helvetica, sans-serif; display: block; }
+blockquote { border-radius: 8px; padding: 2%; border: 2px dotted #6B4133;
+background-color: transparent; color: #6B4133; font-size: 0.9em;
+font-style: italic; font-family: Helvetica, sans-serif; }
+.h { border-radius: 16px; padding: 2%; border: 2px solid #6B4133;
+color: #6B4133; background: #bbb; font-size: 1.3em;
+font-family: Helvetica, sans-serif; margin-right: 2%; }
+em { color: darkcyan; }
+strong { color: darkgreen;} .f a { color: transparent; font-size: 0.8em; }
+.f a { color: #6B4133; font-size: 0.8em; }
+#t { color: darkblue; } #t a { color: #8F44A4; text-decoration: none;}
+hr { height: 3px; width: 98%; background: #6B4133; }
+#out { position: static;  font-size: 1.1em;  top: 2%;
+font-family: Helvetica, sans-serif; margin-right: 4px; left: 5%; width: 72%; margin-bottom: 2%; }
+

@@ -1,0 +1,42 @@
+body { background: #8BA4D6; /* #9CACC9; */
+ color: black; }
+body br { line-height: 66%; }
+a { color: darkblue; }
+#i { border: 2px solid #6B4133; border-radius: 12px;
+padding: 1%; text-align: center; }
+textarea { background: #bbb; color: #6B4141;
+font-size: 1.2em; font-family: Helvetica, sans-serif; border-radius: 8px;
+width: 76%; border: 2px solid #5D478B; margin-left: 22%; }
+input { background: #bbb; color: #6B4141;
+font-size: 1.2em; font-family: sans-serif; border-radius: 8px;
+width: 20%; border: 2px solid #5D478B; margin-left: 42%; }
+#u { float: left; color: #008080; font-size: 1.1em; }
+#e { color: #5D478B; font-size: 1em; float: right; }
+.r { border-radius: 12px; padding: 1%; border: 4px double #6B4133;
+color: black; background: #C9C7B9; font-size: 1.1em; top: 0;
+font-family: sans-serif; margin-left: 22%; margin-right: 2%; }
+p.r { text-align: center; }
+.g { text-align: left; }
+code { border-radius: 4px; padding: 2%; border: 2px solid #6B4133;
+color: black; background: #B8B6A8; font-size: 1em;
+font-family: Helvetica, sans-serif; display: block; }
+span { border-radius: 8px; padding: 2%; border: 2px solid #6B4133; background: #C1BA9D; font-size: 1em; font-family: Helvetica, sans-serif; display: block; }
+blockquote { border-radius: 8px; padding: 2%; border: 2px dotted #6B4133;
+background-color: transparent; color: #6B4133; font-size: 0.9em;
+font-style: italic; font-family: sans-serif; }
+.h { border-radius: 16px; padding: 2%; border: 3px solid #6B4133;
+color: #6B4133; background-color: #BCB6A8; font-size: 1.3em;
+font-family: sans-serif; margin-right: 15%; }
+em { color: darkred; }
+strong { color: darkgreen;}
+.f a { color: #6B4133; font-size: 0.9em; }
+#t { color: darkblue; } #t a { color: #6B44C4; text-decoration: none;}
+hr { height: 2px; width: 99%; background: #6B4133; }
+.b { border-radius: 12px; padding: 3px; border: 2px solid #5D478B;
+color: #008082; background: #C9C7B9; font-size: 1.2em; width: 38%;
+font-family: sans-serif; margin-left: 31%; text-align: center; }
+.b a { color: #5D478B; font-size: 0.9em; }
+#c { border: 2px dashed red; position: absolute; top: 2%; margin-right: 4px; margin-left: 19%;
+ width: 72%; margin-bottom: 4%; }
+#x { background: #C9C7B9; font-size: 1.3em; color: #008080; width: 96%; margin-left: 1%; }
+img { display: block;}
